@@ -1,0 +1,27 @@
+# Archivos generados por Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivo .env (incluye aquí cualquier nombre de archivo que uses para las variables de entorno)
+.env
+
+# Directorio donde se compilan los binarios
+/bin/
+
+# Directorio donde se almacenan las dependencias
+/vendor/
+
+# Si utilizas Go Modules, puedes ignorar el directorio go.sum
+go.sum
+
+# Directorio donde se almacenan los archivos de registro
+/log/
+
+# Cualquier otro archivo o directorio que quieras ignorar
